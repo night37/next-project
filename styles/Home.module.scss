@@ -1,0 +1,58 @@
+.header-container {
+  background-color: $dark-green;
+
+}
+
+.header-logo {
+  background-color: #ffff;
+}
+
+.navbar {
+  background-color: $dark-green;
+}
+
+.main-container {
+  background-color: $light-green;
+}
+
+.hero-container-content {
+  max-width: 435px;
+}
+
+.hero-top-content,
+.hero-bottom-content {
+  line-height: 20px;
+  font-size: 14px;
+
+}
+
+.hero-top-content {
+  font-weight: 700;
+
+}
+
+.hero-bottom-content {
+  font-weight: 400;
+}
+
+.hero-bottom-content-span {
+  color: #2BCAA7
+}
+
+.top-quote-container .bottom-quote-container {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.quote-card-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 1.3rem;
+}
+
+.quote-card-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
