@@ -15,6 +15,42 @@
   background-color: $light-green;
 }
 
+.hero-container {
+  position: relative;
+} 
+.hero-container-content:before{
+  content: url(/assets/images/wave.png);
+  position: relative;
+  top: 0px;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+  
+  
+}
+
+.quote-container:before{
+  content: url(/assets/images/quote.png);
+  position: relative;
+  top:-10px;
+  left: 40px;
+  height: 50px;
+  width: 50px;
+  
+  
+}
+
+.temoignage-top-container:before{
+  content: url(/assets/images/wave.png);
+  position: relative;
+  top:-10px;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+  
+  
+}
+
 .hero-container-content {
   max-width: 435px;
 }
@@ -65,6 +101,4 @@
     object-fit: fill;
 
 }
-// .maconnery-container{
-//   max-width: 380px;
-// }
+

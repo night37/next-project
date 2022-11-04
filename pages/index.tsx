@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container mt-5">
+            <div className="container quote-container mt-5">
                 <div className="row">
                     <div className='col-lg-8 col-md-12'>
                         <p className='top-quote-container ps-lg-5'>
@@ -100,9 +100,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container ">
                 <div className="row">
-                    <div className="col-md-10 p-5">
+                    <div className="col-md-10 p-5 temoignage-top-container">
                         <h2>
                             Un projet soutenu financièrement par l’Union Européenne à travers le programme européen de coopération
                             transfrontalière POCTEFA 2014-2020 source
