@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-10 p-5">
                         <h2>
                             Un projet soutenu financièrement par l’Union Européenne à travers le programme européen de coopération
                             transfrontalière POCTEFA 2014-2020 source
@@ -109,16 +109,20 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container">
-                <div className="row ">
+            <div className="container p-5">
+                <div className="row">
                     <div className="col-sm-12 d-flex justify-content-center">
-                        <Image src="/assets/images/Image.png" alt="image-plante" height="407" width="720"/>
+                        <Image className="img-fluid" src="/assets/images/Image.png" alt="image-plante" height="407" width="720" />
                     </div>
-                    <div className="col-sm-12 d-flex justify-content-center">
-                    <Image src="/assets/images/logo-hautegaronne.png" alt="image-plante" height="407" width="720"/>
+                    <div className="col-sm-12 col-md-12 d-flex justify-content-center mt-3">
+                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
+                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
+                    </div>
+                    <div className="col-sm-12 col-md-12 d-flex justify-content-center mt-3">
+                        <Image className="img-fluid maconnery-picture p-3" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
+                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
+                    </div>
 
-                    </div>
-                    
                 </div>
             </div>
 
