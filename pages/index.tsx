@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header } from './Header'
+import { Footer } from './Footer'
 
 
 export default function Home() {
@@ -111,20 +112,25 @@ export default function Home() {
             </div>
             <div className="container p-5">
                 <div className="row">
-                    <div className="col-sm-12 d-flex justify-content-center">
+                    <div className="col-sm-12 d-flex justify-content-center mb-5">
                         <Image className="img-fluid" src="/assets/images/Image.png" alt="image-plante" height="407" width="720" />
                     </div>
-                    <div className="col-sm-12 col-md-12 d-flex justify-content-center mt-3">
-                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
-                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
+                </div>
+                <div className="row mb-5">
+                    <div className="col-sm-12 col-md-12 d-flex justify-content-center ">
+                        <Image className="img-fluid maconnery-picture me-4" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
+                        <Image className="img-fluid maconnery-picture ms-4" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
                     </div>
-                    <div className="col-sm-12 col-md-12 d-flex justify-content-center mt-3">
-                        <Image className="img-fluid maconnery-picture p-3" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
-                        <Image className="img-fluid maconnery-picture m-3" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
+                </div>
+                    <div className="row">
+                        <div className="col-sm-12 col-md-12 d-flex justify-content-center">
+                            <Image className="img-fluid maconnery-picture me-4" src="/assets/images/logo-hautegaronne.png" alt="logo-haute-garonne" height="192" width="341" />
+                            <Image className="img-fluid maconnery-picture ms-4" src="/assets/images/logo-conselh.png" alt="logo-conselh" height="192" width="341" />
+                        </div>
                     </div>
 
-                </div>
             </div>
+            <Footer />
 
 
             {/* <footer className={styles.footer}>
